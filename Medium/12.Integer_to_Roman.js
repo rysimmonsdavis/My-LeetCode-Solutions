@@ -64,7 +64,6 @@
         string += "V";
     };
     
-    
     while (num - 4 >= 0){
         num -= 4;
         string += "IV";
