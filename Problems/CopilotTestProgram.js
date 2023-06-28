@@ -1,1 +1,9 @@
-//TODO: write a test program that counts the number of characters in a string
+function calculateDaysBetweenDates(begin, end){
+    var beginDate = new Date(begin);
+    var endDate = new Date(end);
+    var millisecondsPerDay = 1000 * 60 * 60 * 24;
+    var millisBetween = endDate.getTime() - beginDate.getTime();
+    var days = millisBetween / millisecondsPerDay;
+    return Math.floor(days);
+}console.log(calculateDaysBetweenDates("2019-01-01", "2019-01-31"));
+
