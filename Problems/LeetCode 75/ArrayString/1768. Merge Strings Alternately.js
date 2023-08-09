@@ -24,11 +24,11 @@ var mergeAlternately = function(word1, word2) {
         word3 += word2.charAt(i)
     }
 
-    if (minWord = 1){
+    if (minWord == 1){
         word3 += word2.slice(minWordLength);
     }
     
-    if (minWord = 2){
+    if (minWord == 2){
         word3 += word1.slice(minWordLength);
     }
 
