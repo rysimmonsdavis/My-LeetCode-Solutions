@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.osx": {
+        "GRAALVM_HOME": "/Users/nrsimmonsdavis/graalvm-ce-java20-23.1.0-dev/Contents/Home"
+    }
+}
